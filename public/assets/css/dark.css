@@ -1,0 +1,719 @@
+/*---------------------------------scroll bar--------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #262a32;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(27, 28, 33);
+    border-radius: 10px;
+    border-style: solid;
+    height: 10px;
+    border-color: rgba(30, 41, 59, .3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(20 158 202);
+    border-color: rgb(20 158 202);
+}
+
+
+.spinner-wrapper {
+    background-color: #262a32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.12s;
+    color: rgb(20 158 202);
+}
+
+
+/*---------------------------------for all header---------------------------*/
+#header {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+    border-bottom: 1px solid #36373a;
+    box-shadow: none;
+}
+
+/* #header::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    backdrop-filter: blur(20px);
+    z-index: -1;
+} */
+
+#header .container .logo h1 a {
+    color: #ffffff;
+}
+
+.navbar a,
+.navbar a:hover {
+    /* color: rgb(217, 220, 225); */
+    color: rgb(235 236 240);
+
+}
+
+.dark-light-button button i {
+    color: #ffffff;
+}
+
+#header #navbar .menu-item button {
+    background-color: rgb(60, 62, 70);
+}
+
+.mobile-nav-toggle {
+    color: rgb(255, 255, 255);
+}
+
+.mobile-nav-toggle.bi-x {
+    color: #ffffff;
+}
+
+.navbar .hire-me {
+    background-color: transparent;
+    color: rgb(20 158 202);
+    border: 2px solid rgb(20 158 202);
+
+}
+
+.navbar .hire-me:hover {
+    transition: color .5s;
+    color: #ffffff;
+    background-color: rgb(20 158 202);
+}
+
+.navbar-mobile ul {
+    /* background-color: rgb(28, 30, 35); */
+    background-color: rgb(22, 24, 29);
+
+}
+
+#header .logo h1 span {
+    background-color: rgb(20 158 202);
+    color: #fff;
+}
+
+/*---------------------------------------home page banner section------------------------------*/
+
+.banner {
+    /* background-color: rgb(2 6 23); */
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
+    background-color: #262a32;
+
+    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
+}
+
+.banner .container .hero-img {
+    border: 4px solid rgb(20 158 202);
+    animation: morph 16s ease-in-out infinite;
+    /* background-image: url("../img/mypic.png"); */
+}
+
+.banner .container h1 {
+    color: #ffffff;
+}
+
+.banner .container h1 em {
+    color: #ffffff;
+}
+
+.banner .container p {
+    color: #fff;
+
+}
+
+.banner .container .content h5 {
+    color: #ffffff;
+
+}
+
+.banner .container .coffee {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: color .5s;
+}
+
+.banner .container .coffee:hover {
+    background-color: rgb(8 126 164);
+    border: 2px solid #262a32;
+
+}
+
+
+.banner .row .col-md-6 .links a svg:hover {
+    color: rgb(255, 255, 255, 165 233);
+}
+
+.typing {
+    font-weight: 600;
+    color: rgb(20 158 202);
+    text-transform: capitalize;
+}
+
+/*---------------------------------home page and  about page section-------------------*/
+
+#about {
+    /* background-color: rgb(2 6 23); */
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
+    /* border-top: 1px solid rgb(17, 22, 45); */
+    background-color: #262a32;
+}
+
+.about .content h3 {
+    color: rgb(20 158 202);
+}
+
+.about .content h6 {
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+.aboutme .name {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.about .content p {
+    color: rgb(221, 221, 221);
+}
+
+#about .row .about-h2 {
+    /* color: rgb(30, 177, 245); */
+    color: rgb(20 158 202);
+}
+
+#about .aboutme p {
+    color: hsl(0, 0%, 83%);
+}
+
+#about .container .col-md-3 span {
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+#about .cv-btn {
+    background-color: transparent;
+    color: rgb(20 158 202);
+    border: 2px solid rgb(20 158 202);
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+}
+
+/*------------------------------------------tech stack -----------------------------------*/
+#tech-stack {
+    /* background-color: #262a32; */
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+    /* background-image: conic-gradient(from 90deg at -10% 100%, #2b303b 0deg, #2b303b 90deg, #16181d 1turn); */
+}
+
+.section-title h2 {
+    /* color: rgb(14 165 233); */
+    color: rgb(20 158 202);
+}
+
+.section-title h2::after {
+    background: rgb(255, 255, 255);
+}
+
+.section-title p {
+    color: #fff;
+}
+
+.interests .icon-box {
+    /* background-color: rgb(15 23 42); */
+    background-color: #262a32;
+    border: none;
+    box-shadow: none;
+    border-radius: 8px;
+    border: 1px solid #404756;
+}
+
+.interests .icon-box h3 {
+    color: #ffffff;
+}
+
+
+/*--------------------------------------------------services--------------------------------------------*/
+#services {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+.services .icon-box {
+    text-align: center;
+    padding: 70px 20px 50px 20px;
+    transition: all ease-in-out 0.3s;
+    /* background-color: rgb(15 23 42); */
+    /* background-color: #262a32; */
+    /* background-color: #262a32; */
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
+    box-shadow: none;
+    background: transparent;
+    border: 1px solid #404756;
+
+}
+
+.services .icon-box h4 {
+
+    color: rgb(255, 255, 255);
+}
+
+.services .icon-box p {
+    color: rgb(177, 186, 196);
+
+}
+
+
+/*-------------------------------------------------------testimonails----------------------------------------*/
+#testimonials {
+    /* background-color: rgb(2 6 23); */
+    /* background-color: #262a32; */
+    background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn);
+}
+
+.testimonials .testimonial-item p {
+    /* background-color: rgb(15 23 42); */
+    background-color: transparent;
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
+    color: rgb(210, 215, 223);
+    border: 1px solid #404756;
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+    color: rgb(16, 73, 92);
+    font-size: 26px;
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0 5px 45px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: rgb(137, 140, 141);
+    margin: 0 0 0 45px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    margin-top: 80px;
+    width: 12px;
+    height: 12px;
+    background-color: #201f1f;
+    opacity: 1;
+    border: 1px solid #262a32;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    border: 5px solid #222222;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: rgb(20 158 202);
+}
+
+
+/*-----------------------------------------contact  page social links section ------------*/
+
+#social-links {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+#social-links h3 {
+    color: #ffffff;
+
+}
+
+.typing-2 {
+    color: #ffffff;
+}
+
+#social-links .col-md-2 h5 {
+    color: #ececec;
+
+}
+
+#social-links h3 em {
+    color: rgb(20 158 202);
+}
+
+#social-links a i {
+    font-size: 60px;
+    color: #ffffff;
+
+}
+
+#social-links .social-link-head p {
+    color: #d5d0d0;
+}
+
+
+/*-------------------------------------------------resume section page--------------------------------------*/
+
+#resume {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+#resume h1 {
+    color: #ffffff;
+}
+
+#resume #navi ul li a {
+    color: #fff;
+}
+
+.resume-wrap {
+    padding: 20px 5px 20px 5px;
+    border-bottom: 1px solid rgb(52, 61, 69);
+}
+
+.resume-wrap .date {
+    font-size: 16px;
+    color: rgb(20 158 202);
+}
+
+.resume-wrap h2 {
+    font-size: 21px;
+    padding: 5px 0px 0px 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(20 158 202);
+}
+
+.heading {
+    color: rgb(20 158 202);
+}
+
+.resume-wrap p {
+    margin-top: 8px;
+    margin-bottom: 1rem;
+    color: rgb(221, 221, 221);
+}
+
+#Skills .row .progress .skill {
+    color: rgb(200, 203, 212);
+}
+
+#Skills .section-title {
+    color: rgb(221, 223, 226);
+}
+
+#Skills .row .progress-bar-wrap {
+    background: #464e56;
+    height: 10px;
+}
+
+#Skills .row .progress-bar {
+    width: 1px;
+    height: 9px;
+    transition: 0.9s;
+    background-color: rgb(20 158 202);
+}
+
+
+/*--------------------------------------------------projects section--------------------------------*/
+
+nav a i {
+    color: rgb(30, 177, 245);
+}
+
+nav a i:hover {
+    color: rgb(30, 177, 245);
+}
+
+nav .anker span {
+    color: #ffffff;
+}
+
+.project-track {
+    background-color: #262a32;
+}
+
+section {
+    background-color: #262a32;
+}
+
+section::before {
+    background-color: #262a32;
+}
+
+.project-form form input {
+    color: #fff;
+    background-color: rgb(30 56 81);
+    border: none;
+    outline: none;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    color: #d5d0d0;
+}
+
+.box {
+    color: rgb(156 163 175);
+    background-color: rgb(30 41 59);
+}
+
+.inputfile-1+label {
+    background-color: rgb(30 41 59);
+}
+
+svg {
+    color: #fff;
+}
+
+label span {
+    color: #fff;
+}
+
+.heading h3 {
+    color: #ffffff;
+
+}
+
+.heading h2 {
+    color: #f4f1f1;
+}
+
+.heading p {
+    color: #d1d5db;
+}
+
+.text-center button {
+    background-color: rgb(20 158 202);
+    border: none;
+}
+
+#coffeewithme {
+    background-color: #262a32;
+}
+
+#coffeewithme .max-width .form-label {
+    color: #d1d5db;
+    font-size: 15px;
+}
+
+#coffeewithme .max-width .form-control {
+    background-color: rgb(28, 30, 35);
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+#coffeewithme .max-width .form-control:hover {
+    outline: none;
+    box-shadow: 0 0 0 1px rgb(20 158 202);
+    border: none;
+    /* background-color: rgb(30 56 81); */
+}
+
+
+
+#coffeewithme .max-width .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(20 158 202);
+}
+
+#coffeewithme .max-width .btn:hover {
+    outline: none;
+    border-color: rgb(20 158 202);
+    /* box-shadow: 0 0 0 4px rgba(91, 101, 245, 0.1); */
+}
+
+.box {
+    background-color: rgb(28, 30, 35);
+    border: 2px dashed rgb(156 163 175);
+}
+
+.inputfile-1+label {
+    color: #6d6c6c;
+    background-color: rgb(28, 30, 35);
+}
+
+#coffeewithme .max-width .form-control::placeholder {
+    color: #bebbbb;
+    opacity: 1;
+}
+
+/*---------------------------------------------------------portfolio section ---------------------------------*/
+
+#portfolio {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+#portfolio h1 {
+    /* color: rgb(30, 177, 245); */
+    color: rgb(20 158 202);
+
+}
+
+#section4 h2 {
+    color: #fafafa;
+}
+
+#portfolio p {
+    color: #ffffff;
+}
+
+#portfolio .max-width .col-md-5 h2 {
+    color: #fff;
+}
+
+#portfolio .max-width .col-md-5 p {
+    color: rgb(225, 226, 228);
+}
+
+#portfolio .max-width {
+    background-color: rgb(22, 24, 29);
+    border: 2px solid #181717;
+}
+
+#portfolio .max-width .col-md-7 {
+    background-color: #262a32;
+}
+
+#portfolio .head {
+    color: #ffffff;
+}
+
+#portfolio .max-width div a {
+    color: #ffffff;
+}
+
+#portfolio .max-width div a:hover {
+    color: rgb(20 158 202);
+}
+
+#portfolio .max-width div a svg:hover {
+    color: rgb(20 158 202);
+}
+
+#portfolio .max-width .btn-group button {
+    background-color: rgb(64, 71, 86);
+    color: #fff;
+}
+
+
+/*----------------------------------------------contact section-----------------------------------------*/
+#contact {
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+.contact .info {
+    width: 100%;
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+}
+
+.contact .info h4 {
+    color: #ffffff;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 17px;
+    color: rgb(203 213 225);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .email-form {
+    width: 100%;
+    /* background-color: rgb(2 6 23); */
+    background-color: #262a32;
+    color: #fff;
+}
+
+.contact .email-form input,
+.contact .email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 25px 10px;
+    border: none;
+    font-size: 17px;
+    background-color: rgb(28, 30, 35);
+    color: #fff;
+}
+
+.contact .info i {
+    background-color: #1c1f23;
+    color: rgb(20 158 202);
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: rgb(20 158 202);
+    color: #fff;
+}
+
+.contact .email-form button[type=submit] {
+    background: rgb(20 158 202);
+}
+
+.contact .email-form button[type=submit]:hover {
+    background: rgb(27, 122, 153);
+}
+
+.contact .email-form input::placeholder {
+    color: #bebbbb;
+    opacity: 1;
+}
+
+.contact .email-form textarea::placeholder {
+    color: #bebbbb;
+    opacity: 1;
+}
+
+/*-------------------------------------------------footer for all page -------------------------*/
+
+footer {
+    /* background-color: rgb(22 24 29); */
+    border-top: 1px solid #404149;
+    background-color: #262a32;
+    color: rgb(255, 255, 255);
+}
+
+.footer-link li i {
+
+    color: #cacaca;
+}
+
+.scroll-up-btn {
+    background-color: rgb(20 158 202);
+    color: #ffffff;
+}

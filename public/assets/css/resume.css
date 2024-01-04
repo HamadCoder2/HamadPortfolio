@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* resume section  */
+
+/*------------------------------------resume-------------------------*/
+#resume {
+    padding: 100px 00px;
+    background-color: #ffffff;
+}
+
+#resume #navi {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+#resume #navi ul {
+    padding-left: 0px;
+}
+
+#resume #navi ul li {
+    list-style: none;
+}
+
+#resume #navi ul li a {
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 21px;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume-wrap {
+    padding: 20px 5px 20px 5px;
+    border-bottom: 1px solid rgb(238, 237, 237);
+}
+
+.resume-wrap h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 0px 0px 0px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.resume-wrap .date {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(14 165 233);
+    /* margin-top: 20px; */
+}
+
+.resume-wrap p {
+    margin-top: 8px;
+    margin-bottom: 1rem;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 400;
+    color: #696969;
+    font-size: 17px;
+}
+
+
+.resume-wrap .position {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.resume-wrap .icon img {
+    width: 70px;
+    padding-bottom: 120px;
+    padding-right: 20px;
+}
+
+.resume-wrap .link {
+    color: #9d9b9b;
+    font-size: 13px;
+}
+
+.resume-wrap .link a {
+    text-decoration: none;
+    color: rgb(14 165 233);
+    font-size: 12px;
+}
+
+#Skills .row .progress-wrap h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#Skills .row .progress-wrap {
+    padding: 15px 0px;
+}
+
+
+#Skills .row .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+#Skills .row .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+
+#Skills .row .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+
+#Skills .row .progress-bar-wrap {
+    background: #dce8f8;
+    height: 9px;
+}
+
+#Skills .row .progress-bar {
+    width: 1px;
+    height: 9px;
+    transition: 0.9s;
+    background-color: rgb(14 165 233);
+}
+
+#Skills .section-title {
+    font-family: "Poppins", sans-serif;
+}
+
+
+section {
+    padding: 60px 0;
+
+}
+
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 2px;
+    background: rgb(100, 200, 246);
+    bottom: 0;
+    left: 0;
+
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+
+@media(max-width:768px) {
+    #resume #navi {
+        display: none;
+    }
+
+    .resume-wrap .icon img {
+        width: 65px;
+        text-align: center;
+        /* padding-bottom: 0px; */
+        position: relative;
+        /* bottom: 180px; */
+        /* display: none; */
+    }
+}
+
+@media(max-width:768px) {
+    #resume {
+        padding: 50px 8px;
+        background-color: #ffffff;
+    }
+
+    #resume .heading {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-title h2 {
+        font-size: 17px;
+    }
+
+    .resume-wrap .position {
+        font-size: 16px;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    .resume-wrap .text h2 {
+        font-size: 19px;
+    }
+
+    .resume-wrap p {
+        margin-top: 8px;
+        margin-bottom: 1rem;
+        font-family: "Poppins", Helvetica, sans-serif;
+        font-weight: 500;
+        color: #919191;
+        font-size: 15px;
+    }
+
+    .section-title p {
+        font-size: 15px;
+    }
+}
