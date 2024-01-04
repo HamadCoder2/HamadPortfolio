@@ -223,7 +223,7 @@ $(document).ready(function () {
         showLoader();
         setTimeout(function () {
             hideLoader();
-        }, 1000); // Replace 2000 with the time it takes to load your content (in milliseconds)
+        }, 800); // Replace 2000 with the time it takes to load your content (in milliseconds)
     }
 
     // Call simulateContentLoading() when the page is ready (remove this in your real implementation)
