@@ -201,42 +201,7 @@ html {
 
 
 /*------------------------tech-stack-------------------------*/
-#tech-stack {
-    background-color: #fff;
-}
 
-.interests .icon-box {
-    display: flex;
-    align-items: center;
-    padding: 15px 20px;
-    background: rgba(255, 255, 255);
-    transition: ease-in-out 0.3s;
-    border: 1px solid rgb(235, 233, 233);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 8px;
-}
-
-.interests .icon-box i {
-    font-size: 32px;
-    padding-right: 10px;
-    line-height: 1;
-}
-
-.interests .icon-box h3 {
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-size: 16px;
-    color: #000000;
-    font-family: 'Poppins', sans-serif;
-    padding-left: 10px;
-    text-transform: capitalize;
-}
-
-/* .interests .icon-box:hover {
-    background: rgba(255, 255, 255, 0.12);
-  } */
 
 
 
@@ -264,14 +229,14 @@ section {
 }
 
 .section-title h2 {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
     position: relative;
-    color: #345676;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 .section-title h2::after {
@@ -279,10 +244,10 @@ section {
     position: absolute;
     display: block;
     width: 50px;
-    height: 2px;
-    background: rgb(100, 200, 246);
+    height: 3px;
+    background: rgb(14 165 233);
     bottom: 0;
-    left: 0;
+    left: calc(50% - 25px);
 }
 
 .section-title p {
@@ -431,15 +396,16 @@ section {
 }
 
 .clients .swiper-slide img {
-    opacity: 0.5;
+    /* opacity: 0.5; */
+    width: 50px;
     transition: 0.3s;
-    filter: grayscale(100);
+    /* filter: grayscale(100); */
 }
 
-.clients .swiper-slide img:hover {
+/* .clients .swiper-slide img:hover {
     filter: none;
     opacity: 1;
-}
+} */
 
 .clients .swiper-pagination {
     margin-top: 20px;
@@ -451,9 +417,9 @@ section {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    background-color: #ddd;
+    background-color: #ffffff;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #ffc451;
+    background-color: #ffffff;
 }
