@@ -1,15 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-
 section {
     padding: 60px 0;
-
 }
-
-
 .section-title {
     padding-bottom: 30px;
 }
@@ -18,7 +12,7 @@ section {
     font-size: 23px;
     font-weight: 600;
     margin-bottom: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     position: relative;
     color: rgb(0, 0, 0);
     text-align: left;
@@ -36,7 +30,6 @@ section {
     background: rgb(100, 200, 246);
     bottom: 0;
     left: 0;
-
 }
 
 .section-title p {
@@ -44,7 +37,6 @@ section {
     font-family: 'Poppins', sans-serif;
     font-size: 21px;
     color: #262626;
-
 }
 
 /* contact us---------------------- */
@@ -192,9 +184,6 @@ section {
     }
 }
 
-
-
-
 #success-box {
     position: fixed;
     top: 50%;
@@ -221,8 +210,6 @@ section {
     justify-content: center;
     
 }
-
-
 
 @media (max-width:768px) {
     #contact {
@@ -267,15 +254,10 @@ section {
 }
 
 
-
-
-/* .social-links */
-
 /*-----------------------------*social links--------------------------------------*/
 #social-links {
     padding: 60px 300px 100px 300px;
     text-align: center;
-    /* background-image: conic-gradient(from 90deg at -10% 100%,#dcdfe5 0deg,#ebeff8 90deg,#fff 1turn); */
     background-color: #fff;
 }
 
@@ -299,7 +281,6 @@ section {
     padding-top: 9px;
     color: #797878;
     font-size: 19px;
-    /* font-family: 'Mulish', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
@@ -319,12 +300,12 @@ section {
 }
 
 #social-links .col-md-2 {
-    padding: 20px 60px;
+    padding: 20px 0px;
     text-align: center;
 }
 
 #social-links a img {
-    width: 50px;
+    width: 40px;
     transition: transform 0.5s;
 
 }
@@ -344,7 +325,7 @@ section {
     text-transform: capitalize;
     font-size: 18px;
     position: relative;
-    right: 3px;
+    right: 6px;
 
 }
 
@@ -372,7 +353,6 @@ section {
         font-family: 'Mulish', sans-serif;
         font-weight: 500;
         text-transform: capitalize;
-
     }
 
     #social-links .social-link-head p {
