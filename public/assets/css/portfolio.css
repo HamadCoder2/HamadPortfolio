@@ -23,13 +23,11 @@ html {
 }
 
 #portfolio .max-width .col-md-7 {
-    /* border: 1px solid rgb(228, 228, 228); */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     height: 400px;
     overflow: hidden;
     padding: 12px;
-    /* margin-left: 10px; */
 }
 
 #portfolio .max-width .col-md-7 img {
@@ -88,8 +86,6 @@ html {
     border-radius: 5px;
     font-size: 16px;
 }
-
-
 #portfolio h1 {
     font-weight: 600;
     color: rgb(30, 177, 245);
@@ -105,26 +101,20 @@ html {
     margin: 10px auto 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
 }
 
 .image-container {
     overflow: hidden;
     height: 100%;
-    /* Ensure the image container takes the full height */
 }
 
 .img-fluid {
     transition: transform 1.9s ease-in-out;
-    /* Add a smooth transition effect */
 }
 
 .img-fluid:hover {
     transform: translateY(-50%);
-    /* Adjust the value based on how much you want it to scroll up */
 }
-
-
 
 @media (max-width:768px) {
 
@@ -153,11 +143,9 @@ html {
     }
 
     #portfolio .projects-btn {
-
         align-items: center;
         max-width: 350px;
         margin: 50px auto;
-
     }
 
     #portfolio section .card {
@@ -174,7 +162,6 @@ html {
         justify-content: space-between;
         align-items: center;
         padding: 10px 10px;
-        /* background-color: #ffffff; */
     }
 
     #portfolio .max-width {
@@ -183,7 +170,6 @@ html {
     }
 
     #portfolio .max-width .row {
-        /* height: 45rem; */
         display: flex;
         flex-direction: column;
     }
@@ -193,9 +179,6 @@ html {
         height: 260px;
         overflow: hidden;
     }
-
-
-
     #portfolio .max-width .col-md-5 {
         padding: 30px 10px 10px 10px
     }
