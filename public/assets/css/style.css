@@ -3,18 +3,14 @@ html {
   transition: background-color 0.5s ease;
 
 }
-
-
 /*--------------------------- scroll bar-----------*/
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
-
 ::-webkit-scrollbar-track {
   background-color: rgb(244, 244, 247);
 }
-
 ::-webkit-scrollbar-thumb {
   background-color: rgb(238, 243, 243);
   border-radius: 10px;
@@ -22,12 +18,9 @@ html {
   height: 10px;
   border-color: rgb(255, 255, 255);
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(30, 177, 245);
 }
-
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -89,35 +82,31 @@ html {
     margin-bottom: 30px;
   }
 }
-
-
-/* .banner section  */
+/* ----------------------------.banner section ------------------------ */
 
 .banner {
   width: 100%;
   padding: 70px 10px 10px 10px;
-  height: 600px;
+  height: 620px;
   text-align: center;
-  background-color: #ffffff;
-
+  background-color: #fafafa;
 }
 
 .banner .container .hero-img {
-  margin-top: 30px;
+  margin-top: 60px;
   padding-right: 40px;
   animation: morph 16s ease-in-out infinite;
-  background-image: url("../img/hamad1.webp");
+  background-image: url("../img/hamad3.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid #2d2e32;
+  border: 4px solid #2d2e32;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   position: relative;
   transition: all 0.2s ease-in-out;
   height: 24rem;
   width: 24rem;
 }
-
 
 @keyframes morph {
   0% {
@@ -142,7 +131,7 @@ html {
 }
 
 .banner .container h1 {
-  font-size: 50px;
+  font-size: 46px;
   text-align: left;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
@@ -157,9 +146,8 @@ html {
 .banner .container p {
   text-align: left;
   font-weight: 500;
-  font-size: 33px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
-
 }
 
 .banner .container h5 {
@@ -171,12 +159,9 @@ html {
   color: #000000;
 
 }
-
 .banner .container .content {
   padding-top: 50px;
 }
-
-
 .banner .container .content .links {
   float: left;
   display: flex;
@@ -221,15 +206,10 @@ html {
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
 }
-
-
 .banner .container .ps-lg-5 {
   padding-left: 0px;
   padding-right: 30px;
 }
-
-
-
 @media(max-width:768px) {
   .banner {
     padding: 10px 10px 10px 10px;
@@ -264,17 +244,13 @@ html {
   .typing-container {
     position: relative;
     height: 60px;
-    /* Adjust height as needed */
     overflow: hidden;
   }
-
   .banner .container p {
     text-align: center;
     font-size: 23px;
     font-family: 'Poppins', sans-serif;
-
   }
-
   .banner .container h5 {
     text-align: center;
     font-weight: 400;
@@ -288,14 +264,10 @@ html {
   .banner .container .coffee {
     display: none;
   }
-
-
   .banner .container .content .links {
     display: flex;
     justify-content: center;
   }
-
-
   .banner .row {
     display: flex;
     flex-direction: column-reverse;
@@ -303,16 +275,11 @@ html {
 }
 
 
-
-
 /*------------------------------about section----------------------------*/
 #about {
   padding: 100px 10px 90px 10px;
   background-color: #ffffff;
-  /* background-image: conic-gradient(from 90deg at -10% 100%,#bcc1cd 0deg,#bcc1cd 90deg,#fff 1turn); */
-  /* border-top: 1px solid rgb(238, 236, 236); */
 }
-
 .about .content {
   padding: 10px 0;
 }
@@ -328,7 +295,7 @@ html {
 
 .about .content h6 {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #302f2f;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
@@ -340,7 +307,7 @@ html {
   font-family: "Poppins", sans-serif;
   line-height: 1.85;
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 1.85em;
   color: #7b7b7b;
@@ -369,8 +336,6 @@ html {
   margin-left: 50px;
   font-family: "Playfair Display", serif;
 }
-
-
 .about .content .count-box a {
   font-weight: 600;
   display: block;
@@ -380,7 +345,6 @@ html {
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
-
 .about .content .count-box a:hover {
   color: #6b96be;
 }
@@ -388,14 +352,11 @@ html {
 .about .image {
   background: url("../img/alexandru-acea-XEB8y0nRRP4-unsplash.jpg") center center no-repeat;
   background-size: cover;
-  height: 370px;
-  width: 500px;
+  height: 350px;
+  width: 480px;
   border-radius: 12px;
   margin-top: 60px;
 }
-
-
-
 #about .cv-btn {
   margin-top: 12px;
   border: none;
@@ -403,12 +364,12 @@ html {
   display: flex;
   padding: 0.90rem 1.5rem;
   background-color: transparent;
-  color: rgb(14 165 233);
+  color: rgb(62, 62, 62);
   font-size: 0.90rem;
   line-height: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
-  border: 2px solid rgb(14 165 233);
+  border: 1px solid rgb(227, 227, 227);
   text-transform: capitalize;
   text-decoration: none;
   vertical-align: middle;
@@ -417,7 +378,6 @@ html {
   user-select: none;
   gap: 0.75rem;
   font-family: 'Poppins', sans-serif;
-  box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
   transition: all .6s ease;
 }
 
@@ -434,7 +394,6 @@ html {
   width: 1.25rem;
   height: 1.25rem;
 }
-
 
 @media (max-width: 768px) {
   #about {
@@ -471,8 +430,6 @@ html {
     font-family: "Poppins", sans-serif;
   }
 
-
-
   .about .image {
     min-height: 330px;
     text-align: center;
@@ -487,44 +444,7 @@ html {
   }
 }
 
-
 /*------------------------tech-stack-------------------------*/
-/* #tech-stack {
-  background-color: #fff;
-}
-
-.interests .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 15px 20px;
-  background: rgba(255, 255, 255);
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgb(235, 233, 233);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 8px;
-}
-
-.interests .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
-
-.interests .icon-box h3 {
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-  color: #000000;
-  font-family: 'Poppins', sans-serif;
-  padding-left: 10px;
-  text-transform: capitalize;
-} */
-
-/* .interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
-} */
 
 #clients {
   padding: 0px 40px;
@@ -548,30 +468,20 @@ html {
 }
 
 .clients .swiper-slide img {
-  /* opacity: 0.5; */
   transition: 0.3s;
   width: 55px;
-  /* filter: grayscale(100); */
 }
 
-/* .clients .swiper-slide img:hover {
-  opacity: 1;
-  filter: none;
-} */
-
-
 /*--------------------------------------------------------------
-# Sections General
+# services Sections 
 --------------------------------------------------------------*/
-
-
 .section-title {
   padding-bottom: 30px;
 }
 
 .section-title h2 {
-  font-size:24px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 20px;
   padding-bottom: 10px;
@@ -594,8 +504,6 @@ html {
 .section-title p {
   margin-bottom: 0;
 }
-
-
 @media (max-width: 768px) {
   #tech-stack {
     padding: 10px 10px 90px 10px;
@@ -610,7 +518,6 @@ html {
     font-size: 14px;
     display: none;
   }
-
 
   .icon-box img {
     display: block;
@@ -631,170 +538,77 @@ html {
 }
 
 
-
-
-
-/* # Services */
-/* --------------------------------------------------------------*/
-#services {
-  padding: 80px 10px;
-  background-color: #ffffff;
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.section-bg {
+  padding: 60px 0;
+  overflow: hidden;
+  position: relative;
 }
-
-/* #services .section-title h2 {
-
-  font-weight: 500;
-  font-family: "Poppins", sans-serif;
-} */
 
 .services .icon-box {
-  text-align: center;
-  padding: 40px 20px 50px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 10px;
-}
-
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 6px;
+  background: #ffffff;
+  transition: 0.3s;
   position: relative;
 }
 
-.services .icon-box .icon i {
+.services .icon-box:hover {
+  background: #ffffff;
+}
+
+.services .icon-box i {
+  float: left;
+  color: rgb(14 165 233);
   font-size: 40px;
-  transition: 0.5s;
-  position: relative;
-}
-
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
+  line-height: 0;
 }
 
 .services .icon-box h4 {
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-  color: #1c1c1c;
-  transition: ease-in-out 0.3s;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  margin-left: 70px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
+.services .icon-box h4 a {
+  color: #000000;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.services .icon-box h4 a:hover {
+  text-decoration: none;
+}
+
+.services .icon-box .icon-box:hover h4 a {
+  color: rgb(14 165 233);
+}
 
 .services .icon-box p {
+  margin-left: 70px;
   line-height: 24px;
-  font-size: 15px;
-  margin-bottom: 0;
-  color: #9e9c9c;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
 }
-
-.services .iconbox-blue i {
-  color: #47aeff;
+.section-bg {
+  padding: 120px 0;
+  color: #040404;
 }
 
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
+.section-bg:before {
+  content: "";
+  background: #EEF5FF;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
 }
-
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-
-.services .iconbox-pink i {
-  color: #e80368;
-}
-
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-
-.services .iconbox-red i {
-  color: #ff5828;
-}
-
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
-}
-
-
-@media (max-width: 768px) {
-
-  .services .icon-box p {
-    line-height: 22px;
-    font-size: 15px;
-    margin-bottom: 0;
-    color: #9e9c9c;
-    font-family: "Poppins", sans-serif;
-  }
-
-  services .section-title h2 {
-
-    padding-left: 50px;
-  }
-}
-
-
-
-
-
 
 /*--------------------------------------------------------------
   # Testimonials
@@ -904,5 +718,3 @@ html {
     background-color: hsl(0, 0%, 100%);
   }
 }
-
-
