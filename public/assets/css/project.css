@@ -7,7 +7,6 @@
     font-family: 'Nanum Gothic Coding', monospace;
 }
 
-
 .heading h2 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -27,25 +26,21 @@
     padding: 0px 260px 30px  260px;
 }
 
-
 .max-width {
     max-width: 800px;
     margin: auto;
 }
 
-
 #coffeewithme {
     padding: 110px 10px 20px 10px;
     background-color: #ffffff;
 }
-
 #coffeewithme .max-width .form-label {
     font-family: 'Poppins', sans-serif;
     color: #222222;
     font-size: 17px;
     font-weight: 500;
 }
-
 #coffeewithme .max-width .form-control {
     border: 1px solid #dfdfdf;
     box-shadow: none;
@@ -55,9 +50,6 @@
     background-color: #ffffff;
     color: #686868;
 }
-
-
-
 #coffeewithme .max-width .form-control:hover {
     outline: none;
     border-color: rgba(60, 184, 246, 0.8);
@@ -68,8 +60,6 @@
 #coffeewithme .max-width .form-control:active {
     background-color: transparent;
 }
-
-
 
 .box {
     background-color: #ffffff;
@@ -99,7 +89,6 @@
     max-width: 80%;
     font-size: 2rem;
     font-weight: 400;
-    /* text-overflow: ellipsis; */
     white-space: nowrap;
     cursor: pointer;
     display: inline-block;
@@ -118,7 +107,6 @@
     outline: 1px dotted #ffffff;
     outline: -webkit-focus-ring-color auto 5px;
 }
-
 
 .inputfile+label svg {
     width: 1em;
@@ -198,7 +186,6 @@
     }
 
 }
-
 
 @media(max-width:768px) {
     #coffeewithme {
