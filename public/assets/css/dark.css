@@ -40,32 +40,24 @@
 
 /*---------------------------------for all header---------------------------*/
 #header {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
     border-bottom: 1px solid #36373a;
     box-shadow: none;
 }
-
-/* #header::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: inherit;
-    backdrop-filter: blur(20px);
-    z-index: -1;
-} */
-
 #header .container .logo h1 a {
     color: #ffffff;
 }
 
 .navbar a,
 .navbar a:hover {
-    /* color: rgb(217, 220, 225); */
     color: rgb(235 236 240);
 
+}
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: rgb(20 158 202);
 }
 
 .dark-light-button button i {
@@ -98,7 +90,6 @@
 }
 
 .navbar-mobile ul {
-    /* background-color: rgb(28, 30, 35); */
     background-color: rgb(22, 24, 29);
 
 }
@@ -111,17 +102,12 @@
 /*---------------------------------------home page banner section------------------------------*/
 
 .banner {
-    /* background-color: rgb(2 6 23); */
-    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
     background-color: #262a32;
-
-    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
 }
 
 .banner .container .hero-img {
     border: 4px solid rgb(20 158 202);
     animation: morph 16s ease-in-out infinite;
-    /* background-image: url("../img/mypic.png"); */
 }
 
 .banner .container h1 {
@@ -151,10 +137,7 @@
 .banner .container .coffee:hover {
     background-color: rgb(8 126 164);
     border: 2px solid #262a32;
-
 }
-
-
 .banner .row .col-md-6 .links a svg:hover {
     color: rgb(255, 255, 255, 165 233);
 }
@@ -164,13 +147,9 @@
     color: rgb(20 158 202);
     text-transform: capitalize;
 }
-
 /*---------------------------------home page and  about page section-------------------*/
 
 #about {
-    /* background-color: rgb(2 6 23); */
-    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
-    /* border-top: 1px solid rgb(17, 22, 45); */
     background-color: #262a32;
 }
 
@@ -195,7 +174,6 @@
 }
 
 #about .row .about-h2 {
-    /* color: rgb(30, 177, 245); */
     color: rgb(20 158 202);
 }
 
@@ -207,9 +185,6 @@
     color: rgb(255, 255, 255);
 
 }
-
-
-
 #about .cv-btn {
     background-color: transparent;
     color: rgb(20 158 202);
@@ -219,14 +194,10 @@
 
 /*------------------------------------------tech stack -----------------------------------*/
 #tech-stack {
-    /* background-color: #262a32; */
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
-    /* background-image: conic-gradient(from 90deg at -10% 100%, #2b303b 0deg, #2b303b 90deg, #16181d 1turn); */
 }
 
 .section-title h2 {
-    /* color: rgb(14 165 233); */
     color: rgb(20 158 202);
 }
 
@@ -239,7 +210,6 @@
 }
 
 .interests .icon-box {
-    /* background-color: rgb(15 23 42); */
     background-color: #262a32;
     border: none;
     box-shadow: none;
@@ -250,50 +220,57 @@
 .interests .icon-box h3 {
     color: #ffffff;
 }
-
+.clients .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #262a32;
+    opacity: 1;
+    border: 1px solid #262a32;
+}
 
 /*--------------------------------------------------services--------------------------------------------*/
 #services {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
+}
+.services .icon-box h4 a,
+p {
+    color: #ffffff;
 }
 
 .services .icon-box {
-    text-align: center;
-    padding: 70px 20px 50px 20px;
-    transition: all ease-in-out 0.3s;
-    /* background-color: rgb(15 23 42); */
-    /* background-color: #262a32; */
-    /* background-color: #262a32; */
-    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
-    box-shadow: none;
-    background: transparent;
-    border: 1px solid #404756;
-
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #262a32;
+    transition: 0.3s;
+    position: relative;
 }
 
-.services .icon-box h4 {
-
-    color: rgb(255, 255, 255);
+.services .icon-box:hover {
+    background-color: #262a32;
 }
 
-.services .icon-box p {
-    color: rgb(177, 186, 196);
-
+.section-bg:before {
+    content: "";
+    background: #16181d;
+    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
+    position: absolute;
+    bottom: 60px;
+    top: 60px;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
 }
-
 
 /*-------------------------------------------------------testimonails----------------------------------------*/
 #testimonials {
-    /* background-color: rgb(2 6 23); */
-    /* background-color: #262a32; */
-    background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn);
+    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
+    background-color: #262a32;
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
 }
 
 .testimonials .testimonial-item p {
-    /* background-color: rgb(15 23 42); */
     background-color: transparent;
-    /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
     color: rgb(210, 215, 223);
     border: 1px solid #404756;
 }
@@ -340,7 +317,6 @@
 /*-----------------------------------------contact  page social links section ------------*/
 
 #social-links {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
 }
 
@@ -372,11 +348,9 @@
     color: #d5d0d0;
 }
 
-
 /*-------------------------------------------------resume section page--------------------------------------*/
 
 #resume {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
 }
 
@@ -440,7 +414,6 @@
     transition: 0.9s;
     background-color: rgb(20 158 202);
 }
-
 
 /*--------------------------------------------------projects section--------------------------------*/
 
@@ -535,11 +508,7 @@ label span {
     outline: none;
     box-shadow: 0 0 0 1px rgb(20 158 202);
     border: none;
-    /* background-color: rgb(30 56 81); */
 }
-
-
-
 #coffeewithme .max-width .btn {
     padding: 10px 20px;
     border-radius: 5px;
@@ -549,7 +518,6 @@ label span {
 #coffeewithme .max-width .btn:hover {
     outline: none;
     border-color: rgb(20 158 202);
-    /* box-shadow: 0 0 0 4px rgba(91, 101, 245, 0.1); */
 }
 
 .box {
@@ -570,16 +538,13 @@ label span {
 /*---------------------------------------------------------portfolio section ---------------------------------*/
 
 #portfolio {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
 }
 
 #portfolio h1 {
-    /* color: rgb(30, 177, 245); */
     color: rgb(20 158 202);
 
 }
-
 #section4 h2 {
     color: #fafafa;
 }
@@ -626,16 +591,13 @@ label span {
     color: #fff;
 }
 
-
 /*----------------------------------------------contact section-----------------------------------------*/
 #contact {
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
 }
 
 .contact .info {
     width: 100%;
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
 }
 
@@ -653,7 +615,6 @@ label span {
 
 .contact .email-form {
     width: 100%;
-    /* background-color: rgb(2 6 23); */
     background-color: #262a32;
     color: #fff;
 }
@@ -702,14 +663,12 @@ label span {
 /*-------------------------------------------------footer for all page -------------------------*/
 
 footer {
-    /* background-color: rgb(22 24 29); */
     border-top: 1px solid #404149;
     background-color: #262a32;
     color: rgb(255, 255, 255);
 }
 
 .footer-link li i {
-
     color: #cacaca;
 }
 
