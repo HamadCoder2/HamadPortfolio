@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* resume section  */
 
 /*------------------------------------resume-------------------------*/
 #resume {
@@ -63,7 +62,6 @@ html {
     font-weight: 700;
     font-size: 18px;
     color: rgb(14 165 233);
-    /* margin-top: 20px; */
 }
 
 .resume-wrap p {
@@ -74,8 +72,6 @@ html {
     color: #696969;
     font-size: 17px;
 }
-
-
 .resume-wrap .position {
     font-size: 19px;
     font-weight: 600;
@@ -107,7 +103,6 @@ html {
 #Skills .row .progress-wrap {
     padding: 15px 0px;
 }
-
 
 #Skills .row .progress {
     height: 60px;
@@ -147,13 +142,10 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
-
 section {
     padding: 60px 0;
 
 }
-
-
 .section-title {
     padding-bottom: 30px;
 }
@@ -187,8 +179,6 @@ section {
     margin-bottom: 0;
 }
 
-
-
 @media(max-width:768px) {
     #resume #navi {
         display: none;
@@ -197,10 +187,7 @@ section {
     .resume-wrap .icon img {
         width: 65px;
         text-align: center;
-        /* padding-bottom: 0px; */
         position: relative;
-        /* bottom: 180px; */
-        /* display: none; */
     }
 }
 
