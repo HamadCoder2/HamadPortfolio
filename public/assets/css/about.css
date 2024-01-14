@@ -80,7 +80,8 @@ html {
 }
 
 .about .image {
-    background: url("../img/alexandru-acea-XEB8y0nRRP4-unsplash.jpg") center center no-repeat;
+  
+    background: url("../img/coding.png") center center no-repeat;
     background-size: cover;
     height: 350px;
     width: 480px;
@@ -266,13 +267,11 @@ section {
 /* Call-to-action Section - Home Page
 ------------------------------*/
 .call-to-action {
-    color: #ffffff;
-    background-color: #000000;
-    --background-color-rgb: 0, 0, 0;
-    padding: 80px 0;
+    color: #3b3b3b;
+    background-color: rgb(241 245 249);
+    padding: 90px 0;
     position: relative;
-    -webkit-clip-path: inset(0);
-    clip-path: inset(0);
+    /* clip-path: inset(0); */
 }
 
 .call-to-action img {
@@ -289,7 +288,6 @@ section {
 
 .call-to-action:before {
     content: "";
-    background: rgba(var(--background-color-rgb), 0.5);
     position: absolute;
     inset: 0;
     z-index: 2;
@@ -323,15 +321,16 @@ section {
     border-radius: 5px;
     transition: 0.5s;
     margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 1px solid rgb(14 165 233);;
+    color: #272727;
     background-color: transparent;
     text-decoration: none;
 }
 
 .call-to-action .cta-btn:hover {
     background-color: rgb(14 165 233);
-    border: 2px solid rgb(14 165 233);
+    border: 1px solid rgb(14 165 233);
+    color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -355,7 +354,7 @@ section {
 # tech stack 
 --------------------------------------------------------------*/
 #clients {
-    padding: 0px 40px;
+    padding: 50px 40px 70px 40px;
 }
 
 .clients {
@@ -374,10 +373,10 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: #fff;
+    background-color: #ffffff;
     opacity: 1;
     background-color: #ffffff;
 }
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
