@@ -42,11 +42,14 @@ section {
 /* contact us---------------------- */
 #contact {
     padding: 120px 10px 35px 10px;
+    background-color: #f8f9fb;
 }
 
 .contact .info {
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
+    background-color: #f8f9fb;
+
 }
 
 .contact .info i {
@@ -56,6 +59,7 @@ section {
     width: 44px;
     height: 44px;
     background: #effbf9;
+    /* background-color: #f8f9fb; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +97,8 @@ section {
 
 .contact .email-form {
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
+    background-color: #f8f9fb;
 }
 
 .contact .email-form .form-group {
