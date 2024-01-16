@@ -368,6 +368,9 @@ section {
 .clients .swiper-slide img {
     width: 50px;
     transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clients .swiper-pagination {
@@ -389,7 +392,7 @@ section {
 
 @media (max-width:768px) {
     #clients {
-        padding: 50px 40px 70px 10px;
+        padding: 50px 20px 70px 20px;
     }
 
 }
