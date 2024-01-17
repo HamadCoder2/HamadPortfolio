@@ -132,8 +132,9 @@
 
 .banner .container .coffee {
     color: #ffffff;
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     transition: color .5s;
+    background-color: transparent;
 }
 
 .banner .container .coffee:hover {
@@ -195,6 +196,29 @@
     color: rgb(20 158 202);
     border: 1px solid rgb(20 158 202);
     box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+}
+
+
+.cta .container{
+    background-color: #000;
+}
+
+.cta .content h3 {
+   color: #fff;
+}
+
+.cta .content p {
+    color: #bebbbb;
+}
+
+.cta .content .cta-btn {
+    background-color:#262a32 ;
+    color: #bebbbb;
+}
+
+.cta .content .cta-btn:hover{
+    background-color:#262a32 ;
+    color: #bebbbb;
 }
 
 /*------------------------------------------tech stack -----------------------------------*/
@@ -716,13 +740,13 @@ label span {
 /*-------------------------------------------------footer for all page -------------------------*/
 
 footer {
-    border-top: 1px solid #404149;
+    border-top: 1px solid #3a3b41;
     background-color: #262a32;
-    color: rgb(255, 255, 255);
+    color: rgb(149, 149, 149);
 }
 
 .footer-link li i {
-    color: #cacaca;
+    color: #878787;
 }
 
 .scroll-up-btn {
