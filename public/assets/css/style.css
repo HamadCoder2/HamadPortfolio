@@ -136,10 +136,11 @@ html {
 }
 
 .banner .container h1 {
-  font-size: 46px;
+  font-size: 52px;
   text-align: left;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
+  /* font-family: Mulish,sans-serif; */
   color: #010101;
 }
 
@@ -151,16 +152,17 @@ html {
 .banner .container p {
   text-align: left;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Poppins', sans-serif;
 }
 
 .banner .container h5 {
   text-align: left;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   padding-bottom: 10px;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: Mulish,sans-serif;
   color: #000000;
 
 }
@@ -178,7 +180,7 @@ html {
 .banner .container .content .links a {
   padding-right: 12px;
   font-size: 12px;
-  color: #000;
+  color: #4e4e4e;
 }
 
 .banner .container .links a:hover {
@@ -194,11 +196,12 @@ html {
   font-size: 16px;
   padding: 12px 20px;
   color: #000;
-  border: 1px solid #000000;
+  border: 1px solid #d3d3d3;
   border-radius: 6px;
   font-family: 'Sora', sans-serif;
   transition: color .5s;
   text-decoration: none;
+  background-color: #fff;
   font-weight: 600;
 }
 
@@ -222,7 +225,7 @@ html {
 @media(max-width:768px) {
   .banner {
     padding: 10px 10px 10px 10px;
-    height: 630px;
+    height: 650px;
 
   }
 
@@ -318,13 +321,14 @@ html {
 .about .content p {
   margin-bottom: 0;
   color: #adb5bd;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: Mulish,sans-serif;
   line-height: 1.85;
   text-align: left;
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 1.85em;
-  color: #7b7b7b;
+  color: #767676;
   padding-bottom: 12px;
 }
 
@@ -366,7 +370,7 @@ html {
 }
 
 .about .image {
-  background: url("../img/coding.png") center center no-repeat;
+  background: url("../img/programmer.png") center center no-repeat;
   background-size: cover;
   height: 350px;
   width: 480px;
@@ -377,7 +381,7 @@ html {
 #about .cv-btn {
   margin-top: 12px;
   border: none;
-  width: 150px;
+  width: 160px;
   display: flex;
   padding: 0.90rem 1.5rem;
   background-color: transparent;
@@ -414,14 +418,14 @@ html {
 
 @media (max-width: 768px) {
   #about {
-    padding: 50px 20px 90px 20px;
+    padding: 10px 20px 60px 20px;
     background-color: #ffffff;
   }
 
   .about .content p {
     margin-bottom: 0;
-    font-size: 15px;
-    color: #677788;
+    font-size: 16px;
+    color: #767676;
     font-family: "Poppins", sans-serif;
     line-height: 1.85;
     text-align: left;
@@ -433,9 +437,10 @@ html {
   }
 
   .about .content h3 {
-    font-size: 19px;
+    font-size: 17px;
     font-weight: 600;
     padding-bottom: 4px;
+    padding-top: 6px;
     font-family: "Poppins", sans-serif;
   }
 
@@ -477,17 +482,34 @@ html {
   height: 10px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #f3f3f3;
+  border: 1px solid #ffffff;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 
 .clients .swiper-slide img {
   transition: 0.3s;
   width: 55px;
 }
+
+.clients .swiper-slide img:hover {
+  transform: scale(1.2);
+}
+
+.clients .container .clients-slider .swiper-wrapper .slider-separator::after{
+  display: inline-block;
+  width: 20px;
+  /* Adjust the width of the separator as needed */
+  height: 1px;
+  /* Adjust the height of the separator as needed */
+  background-color: #000;
+  /* Color of the separator */
+  margin: 0 5px;
+  /* Adjust the margin as needed */
+}
+
 
 /*--------------------------------------------------------------
 # services Sections 
@@ -498,24 +520,26 @@ html {
 
 .section-title h2 {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 20px;
   padding-bottom: 10px;
   text-align: center;
   position: relative;
   font-family: "Poppins", sans-serif;
+  /* font-family: Mulish,sans-serif; */
 }
 
-.section-title h2::after {
+.section-title h2:hover::after {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 60px;
   height: 3px;
   background: rgb(14 165 233);
   bottom: 0;
   left: calc(50% - 25px);
+  transition: 0.2s;
 }
 
 .section-title p {
@@ -525,7 +549,7 @@ html {
 @media (max-width: 768px) {
 
   #clients {
-    padding: 50px 20px 70px 20px;
+    padding: 50px 20px 50px 20px;
   }
 
 
@@ -578,12 +602,13 @@ html {
 
 .services .icon-box:hover {
   background: #ffffff;
+  transform: translateY(-10px);
 }
 
 .services .icon-box i {
   float: left;
   color: rgb(14 165 233);
-  font-size: 40px;
+  font-size: 50px;
   line-height: 0;
 }
 
@@ -698,10 +723,12 @@ html {
 }
 
 .testimonials .testimonial-item p {
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Roboto Slab', serif;
+  font-family: Mulish,sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+  /* font-family: 'Segoe UI', sans-serif; */
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: #fff;
@@ -709,7 +736,7 @@ html {
   border-radius: 6px;
   position: relative;
   z-index: 1;
-  color: #8d8a8a;
+  color: #555454;
   box-shadow: 0px 2px 15px rgba(69, 69, 69, 0.1);
 }
 
