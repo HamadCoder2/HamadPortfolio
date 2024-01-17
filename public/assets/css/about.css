@@ -31,11 +31,12 @@ html {
 
 .about .content p {
     margin-bottom: 0;
-    color: #adb5bd;
-    font-family: "Poppins", sans-serif;
+    color: #767676;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Mulish,sans-serif;
     line-height: 1.85;
     text-align: left;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.85em;
     color: #7b7b7b;
@@ -81,7 +82,7 @@ html {
 
 .about .image {
 
-    background: url("../img/coding.png") center center no-repeat;
+    background: url("../img/programmer.png") center center no-repeat;
     background-size: cover;
     height: 350px;
     width: 480px;
@@ -92,7 +93,7 @@ html {
 #about .cv-btn {
     margin-top: 12px;
     border: none;
-    width: 150px;
+    width: 180px;
     display: flex;
     padding: 0.90rem 1.5rem;
     background-color: transparent;
@@ -135,9 +136,8 @@ html {
 
     .about .content p {
         margin-bottom: 0;
-        font-size: 15px;
-        color: #677788;
-        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: #767676;
         line-height: 1.85;
         text-align: left;
         font-weight: 400;
@@ -151,7 +151,6 @@ html {
         font-size: 19px;
         font-weight: 600;
         padding-bottom: 4px;
-        font-family: "Poppins", sans-serif;
     }
 
     .about .content h6 {
@@ -159,7 +158,6 @@ html {
         font-size: 16px;
         color: #302f2f;
         text-transform: capitalize;
-        font-family: "Poppins", sans-serif;
     }
 
 
@@ -216,7 +214,7 @@ section {
     font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title h2:hover::after {
     content: "";
     position: absolute;
     display: block;
@@ -264,94 +262,98 @@ section {
     }
 }
 
+.cta {
+    padding: 0;
+    padding-bottom: 90px;
+}
 
-/* Call-to-action Section - Home Page
-------------------------------*/
-.call-to-action {
-    color: #3b3b3b;
-    background-color: rgb(255, 255, 255);
-    padding: 90px 0;
+.cta .container {
+    padding: 80px;
+    background: #EEF5FF;
+    border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+    .cta .container {
+        padding: 60px;
+    }
+}
+
+.cta .content h3 {
+    color: var(--color-secondary);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.cta .content h3 em {
+    font-style: normal;
     position: relative;
-    /* clip-path: inset(0); */
 }
 
-.call-to-action img {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    z-index: 1;
-}
-
-.call-to-action:before {
+.cta .content h3 em:after {
     content: "";
     position: absolute;
-    inset: 0;
-    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 10px;
+    background: rgba(var(--color-primary-rgb), 0.5);
+    z-index: -1;
+    
 }
 
-.call-to-action .container {
-    position: relative;
-    z-index: 3;
-}
-
-.call-to-action h3 {
-    font-size: 28px;
-    font-weight: 500;
-    color: var(--default-color);
-    font-family: 'Poppins', sans-serif;
-}
-
-.call-to-action p {
+.cta .content p {
     color: #000;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Roboto Slab', serif;
-    font-size: 23px;
-    font-weight: 300
+    font-weight: 400;
+    font-size: 19px;
+    /* font-family: inherit; */
+    font-family: Mulish,sans-serif;
 }
 
-.call-to-action .cta-btn {
-    font-family: 'Poppins', sans-serif;
+.cta .content .cta-btn {
+    color:#000;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 1px;
     display: inline-block;
     padding: 12px 40px;
     border-radius: 5px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 1px solid rgb(14 165 233);
-    ;
-    color: #272727;
-    background-color: transparent;
     text-decoration: none;
+    transition: 0.5s;
+    margin-top: 10px;
+    background: #fff;
 }
 
-.call-to-action .cta-btn:hover {
-    background-color: rgb(14 165 233);
-    border: 1px solid rgb(14 165 233);
-    color: #fff;
+.cta .content .cta-btn:hover {
+    background: #fff;
 }
 
-@media (max-width: 991px) {
+.cta .img {
+    position: relative;
+}
 
-    .call-to-action h3 {
-        font-size: 21px;
-        font-weight: 700;
-        color: var(--default-color);
-        font-family: 'Poppins', sans-serif;
-    }
+.cta .img:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(var(--color-white-rgb), 0.5);
+    border-radius: 15px;
+    transform: rotate(12deg);
+}
 
-    .call-to-action p {
-        color: var(--default-color);
-        font-family: 'Poppins', sans-serif;
-        font-size: 16px;
-    }
+.cta .img:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(var(--color-white-rgb), 0.9);
+    border-radius: 15px;
+    transform: rotate(6deg);
+}
 
+.cta .img img {
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -393,6 +395,21 @@ section {
 @media (max-width:768px) {
     #clients {
         padding: 50px 20px 70px 20px;
+    }
+    .cta{
+        padding: 20px;
+    }
+
+    .cta .container{
+        padding: 30px 20px;
+    }
+
+    .cta .content h3 {
+        font-size: 20px;
+    }
+
+    .cta .content p {
+        font-size: 16px;
     }
 
 }
