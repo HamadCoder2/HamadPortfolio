@@ -109,7 +109,7 @@ html {
 }
 
 .img-fluid {
-    transition: transform 1.9s ease-in-out;
+    transition: transform 6.5s ease-in-out;
 }
 
 .img-fluid:hover {
