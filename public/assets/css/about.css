@@ -147,11 +147,13 @@ html {
         padding-bottom: 12px;
     }
 
-    .about .content h3 {
-        font-size: 19px;
-        font-weight: 600;
-        padding-bottom: 4px;
-    }
+     .about .content h3 {
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 4px;
+    padding-top: 6px;
+    font-family: "Poppins", sans-serif;
+  }
 
     .about .content h6 {
         font-weight: 600;
