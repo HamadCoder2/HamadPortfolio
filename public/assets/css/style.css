@@ -101,7 +101,7 @@ html {
   margin-top: 60px;
   padding-right: 40px;
   animation: morph 16s ease-in-out infinite;
-   background-image: url("../img/hamad5.jpg");
+  background-image: url("../img/hamad5.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -469,7 +469,7 @@ html {
 /*------------------------tech-stack-------------------------*/
 
 #clients {
-  padding: 50px 170px 70px 170px;
+  padding: 50px 170px 50px 170px;
 }
 
 .clients .swiper-pagination {
