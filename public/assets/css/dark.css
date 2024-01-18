@@ -108,7 +108,7 @@
 }
 
 .banner .container .hero-img {
-    border: 4px solid rgb(20 158 202);
+       border: 3px solid rgb(203, 203, 203);
     animation: morph 16s ease-in-out infinite;
 }
 
