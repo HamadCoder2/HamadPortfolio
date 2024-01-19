@@ -158,7 +158,7 @@
 
 #about {
     /* background-color: #22252b; */
-    background-image: conic-gradient(from -90deg at 110% 100%,#2b303b 0deg,#16181d 90deg,#16181d 1turn);
+    background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn);
 }
 
 .about .content h3 {
@@ -216,7 +216,7 @@
 
 .cta .content .cta-btn {
     background-color: #262a32;
-    color: #bebbbb;
+    color: #ffffff;
 }
 
 .cta .content .cta-btn:hover {
@@ -231,7 +231,7 @@
 
 .section-title h2 {
     color: rgb(246 247 249);
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .section-title h2::after {
@@ -422,7 +422,6 @@ p {
 
 .call-to-action p {
     color: #f2f2f2;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Roboto Slab', serif;
     font-size: 23px;
     font-weight: 300
@@ -449,7 +448,7 @@ p {
 
 .resume-wrap .date {
     font-size: 16px;
-    color: rgb(20 158 202);
+    color: rgb(153 161 179);
 }
 
 .resume-wrap h2 {
@@ -466,13 +465,13 @@ p {
 }
 
 .heading {
-    color: rgb(20 158 202);
+    color: rgb(255, 255, 255);
 }
 
 .resume-wrap p {
     margin-top: 8px;
     margin-bottom: 1rem;
-    color: rgb(221, 221, 221);
+    color: rgb(235 236 240);
 }
 
 #Skills .row .progress .skill {
@@ -632,6 +631,7 @@ label span {
 
 #portfolio {
     background-color: #262a32;
+    background-image: none;
 }
 
 #portfolio h1 {
