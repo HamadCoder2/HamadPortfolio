@@ -114,9 +114,9 @@ html {
     transition: all .6s ease;
 }
 
-#about .cv-btn:hover {
+/* #about .cv-btn:hover {
     box-shadow: 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17;
-}
+} */
 
 #about .cv-btn:active {
     opacity: .85;
