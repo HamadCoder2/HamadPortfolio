@@ -26,19 +26,20 @@ html {
 #resume #navi ul li a {
     text-decoration: none;
     display: block;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 20px;
     font-size: 21px;
     text-align: left;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Segoe UI', sans-serif;
     color: #000000;
 
 }
 
 .heading {
     font-weight: 600;
-    font-size: 27px;
+    font-size: 25px;
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
@@ -50,7 +51,7 @@ html {
 }
 
 .resume-wrap h2 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     padding: 5px 0px 0px 0px;
     text-transform: capitalize;
@@ -67,11 +68,13 @@ html {
 .resume-wrap p {
     margin-top: 8px;
     margin-bottom: 1rem;
-    font-family: "Poppins", Helvetica, sans-serif;
+    /* font-family: "Poppins", Helvetica, sans-serif; */
+    font-family: 'Segoe UI', sans-serif;
     font-weight: 400;
     color: #696969;
-    font-size: 17px;
+    font-size: 18px;
 }
+
 .resume-wrap .position {
     font-size: 19px;
     font-weight: 600;
@@ -142,10 +145,43 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+
+#resume #Interests .interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #EEF5FF;
+    transition: ease-in-out 0.3s;
+}
+
+
+#resume #Interests .interests .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+
+#resume #Interests .interests .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #3f3f3f;
+    font-family: "Poppins", sans-serif;
+}
+
+
+#resume #Interests .interests .icon-box:hover {
+    background: #EEF5FF;
+}
+
 section {
     padding: 60px 0;
 
 }
+
 .section-title {
     padding-bottom: 30px;
 }
@@ -158,7 +194,6 @@ section {
     position: relative;
     color: #000000;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
 }
 
 .section-title h2::after {
@@ -168,7 +203,7 @@ section {
     justify-content: center;
     align-items: center;
     width: 50px;
-    height: 2px;
+    height: 3px;
     background: rgb(100, 200, 246);
     bottom: 0;
     left: 0;
@@ -214,16 +249,15 @@ section {
     }
 
     .resume-wrap .text h2 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .resume-wrap p {
         margin-top: 8px;
         margin-bottom: 1rem;
-        font-family: "Poppins", Helvetica, sans-serif;
-        font-weight: 500;
-        color: #919191;
-        font-size: 15px;
+        font-weight: 400;
+        color: #656565;
+        font-size: 16px;
     }
 
     .section-title p {
