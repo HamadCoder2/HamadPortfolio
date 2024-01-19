@@ -41,6 +41,7 @@
 /*---------------------------------for all header---------------------------*/
 #header {
     background-color: #262a32;
+    /* background-color: rgb(2, 6, 23); */
     border-bottom: 1px solid #36373a;
     box-shadow: none;
 }
@@ -105,10 +106,11 @@
 
 .banner {
     background-color: #262a32;
+    /* background-color: rgb(2, 6, 23); */
 }
 
 .banner .container .hero-img {
-       border: 3px solid rgb(203, 203, 203);
+    border: 3px solid rgb(203, 203, 203);
     animation: morph 16s ease-in-out infinite;
 }
 
@@ -132,7 +134,7 @@
 
 .banner .container .coffee {
     color: #ffffff;
-    border: 1px solid #ffffff;
+    border: 1px solid #404756;
     transition: color .5s;
     background-color: transparent;
 }
@@ -155,7 +157,8 @@
 /*---------------------------------home page and  about page section-------------------*/
 
 #about {
-    background-color: #262a32;
+    /* background-color: #22252b; */
+    background-image: conic-gradient(from -90deg at 110% 100%,#2b303b 0deg,#16181d 90deg,#16181d 1turn);
 }
 
 .about .content h3 {
@@ -175,7 +178,7 @@
 }
 
 .about .content p {
-    color: rgb(221, 221, 221);
+    color: rgb(235 236 240);
 }
 
 #about .row .about-h2 {
@@ -193,31 +196,31 @@
 
 #about .cv-btn {
     background-color: transparent;
-    color: rgb(20 158 202);
-    border: 1px solid rgb(20 158 202);
-    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    color: rgb(240, 243, 245);
+    border: 1px solid #404756;
+    /* box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17; */
 }
 
 
-.cta .container{
-    background-color: #000;
+.cta .container {
+    background-color: rgb(55 65 81);
 }
 
 .cta .content h3 {
-   color: #fff;
+    color: #fff;
 }
 
 .cta .content p {
-    color: #bebbbb;
+    color: rgb(153 161 179);
 }
 
 .cta .content .cta-btn {
-    background-color:#262a32 ;
+    background-color: #262a32;
     color: #bebbbb;
 }
 
-.cta .content .cta-btn:hover{
-    background-color:#262a32 ;
+.cta .content .cta-btn:hover {
+    background-color: #262a32;
     color: #bebbbb;
 }
 
@@ -227,7 +230,8 @@
 }
 
 .section-title h2 {
-    color: rgb(20 158 202);
+    color: rgb(246 247 249);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
 }
 
 .section-title h2::after {
@@ -301,8 +305,9 @@ p {
 }
 
 .testimonials .testimonial-item p {
-    background-color: transparent;
-    color: rgb(210, 215, 223);
+    /* background-color: transparent; */
+    background-color: rgb(55 65 81);
+    color: rgb(235 236 240);
     border: 1px solid #404756;
 }
 
@@ -488,6 +493,18 @@ p {
     height: 9px;
     transition: 0.9s;
     background-color: rgb(20 158 202);
+}
+
+#resume #Interests .interests .icon-box {
+    background-color: rgb(55 65 81);
+}
+
+#resume #Interests .interests .icon-box:hover {
+    background-color: rgb(55 65 81);
+}
+
+#resume #Interests .interests .icon-box h3 {
+    color: #e8e8e8;
 }
 
 /*--------------------------------------------------projects section--------------------------------*/
@@ -742,14 +759,15 @@ label span {
 footer {
     border-top: 1px solid #3a3b41;
     background-color: #262a32;
-    color: rgb(149, 149, 149);
+    /* color: rgb(149, 149, 149); */
+    color: rgb(235 236 240);
 }
 
 .footer-link li i {
-    color: #878787;
+    color: rgb(235 236 240);
 }
 
 .scroll-up-btn {
     background-color: rgb(20 158 202);
-    color: #ffffff;
+    color: rgb(235 236 240);
 }
