@@ -33,7 +33,7 @@ html {
     margin-bottom: 0;
     color: #767676;
     /* font-family: "Poppins", sans-serif; */
-    font-family: Mulish,sans-serif;
+    font-family: Mulish, sans-serif;
     line-height: 1.85;
     text-align: left;
     font-size: 18px;
@@ -147,13 +147,11 @@ html {
         padding-bottom: 12px;
     }
 
-     .about .content h3 {
-    font-size: 17px;
-    font-weight: 600;
-    padding-bottom: 4px;
-    padding-top: 6px;
-    font-family: "Poppins", sans-serif;
-  }
+    .about .content h3 {
+        font-size: 19px;
+        font-weight: 600;
+        padding-bottom: 4px;
+    }
 
     .about .content h6 {
         font-weight: 600;
@@ -206,14 +204,16 @@ section {
 }
 
 .section-title h2 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: center;
     position: relative;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    /* font-family: Mulish,sans-serif; */
 }
 
 .section-title h2:hover::after {
@@ -302,7 +302,7 @@ section {
     height: 10px;
     background: rgba(var(--color-primary-rgb), 0.5);
     z-index: -1;
-    
+
 }
 
 .cta .content p {
@@ -310,11 +310,11 @@ section {
     font-weight: 400;
     font-size: 19px;
     /* font-family: inherit; */
-    font-family: Mulish,sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 .cta .content .cta-btn {
-    color:#000;
+    color: #000;
     font-weight: 500;
     font-size: 16px;
     display: inline-block;
@@ -398,11 +398,12 @@ section {
     #clients {
         padding: 50px 20px 70px 20px;
     }
-    .cta{
+
+    .cta {
         padding: 20px;
     }
 
-    .cta .container{
+    .cta .container {
         padding: 30px 20px;
     }
 
