@@ -39,7 +39,7 @@ html {
 
 .heading {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
@@ -69,7 +69,9 @@ html {
     margin-top: 8px;
     margin-bottom: 1rem;
     /* font-family: "Poppins", Helvetica, sans-serif; */
-    font-family: 'Segoe UI', sans-serif;
+    /* font-family: 'Segoe UI', sans-serif; */
+
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
     color: #696969;
     font-size: 18px;
@@ -120,7 +122,9 @@ html {
     text-transform: uppercase;
     display: block;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #050d18;
 }
 
@@ -130,7 +134,7 @@ html {
 }
 
 #Skills .row .progress-bar-wrap {
-    background: #dce8f8;
+    background: #e1edfd;
     height: 9px;
 }
 
@@ -142,7 +146,9 @@ html {
 }
 
 #Skills .section-title {
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
 }
 
 
@@ -163,7 +169,7 @@ html {
 
 
 #resume #Interests .interests .icon-box h3 {
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -196,7 +202,7 @@ section {
     text-align: left;
 }
 
-.section-title h2::after {
+.section-title h2:hover::after {
     content: "";
     position: absolute;
     display: flex;
