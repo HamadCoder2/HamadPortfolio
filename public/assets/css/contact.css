@@ -19,7 +19,7 @@ section {
     font-family: 'Poppins', sans-serif;
 }
 
-.section-title h2::after {
+.section-title h2:hover:after {
     content: "";
     position: absolute;
     display: flex;
@@ -43,12 +43,14 @@ section {
 #contact {
     padding: 120px 10px 35px 10px;
     background-color: #f8f9fb;
+    /* background-image: conic-gradient(from 90deg at -10% 100%,#bcc1cd 0deg,#bcc1cd 90deg,#fff 1turn); */
 }
 
 .contact .info {
     width: 100%;
     /* background: #fff; */
-    background-color: #f8f9fb;
+    /* background-color: #f8f9fb; */
+    background: transparent;
 
 }
 
@@ -98,11 +100,16 @@ section {
 .contact .email-form {
     width: 100%;
     /* background: #fff; */
-    background-color: #f8f9fb;
+    /* background-color: #f8f9fb; */
+    background: transparent;
 }
 
 .contact .email-form .form-group {
     padding-bottom: 8px;
+}
+
+.contact iframe{
+    box-shadow: 100px -100px 0px -100px rgba(0,0,0,0.1),0px 10px 15px -100px rgba(0,0,0,0.1);
 }
 
 .contact .email-form .error-message {
@@ -329,8 +336,8 @@ section {
     font-style: normal;
     text-transform: capitalize;
     font-size: 18px;
-    position: relative;
-    right: 6px;
+    /* position: relative;
+    right: 6px; */
 
 }
 
