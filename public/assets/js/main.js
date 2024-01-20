@@ -180,7 +180,7 @@
     breakpoints: {
       320: {
         slidesPerView: 3,
-        spaceBetween: 30
+        spaceBetween: 40
       },
       480: {
         slidesPerView: 3,
