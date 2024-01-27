@@ -257,8 +257,8 @@
 }
 
 #clients {
-  background-image: none;
-  background-color: #262a32;
+    background-image: none;
+    background-color: #262a32;
     /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
 }
 
@@ -273,7 +273,7 @@
 /*--------------------------------------------------services--------------------------------------------*/
 #services {
     background-color: #262a32;
-    
+
     /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
 }
 
@@ -286,13 +286,24 @@ p {
     margin-bottom: 20px;
     padding: 30px;
     border-radius: 6px;
-    background-color: #262a32;
+    background-image: url("../img/meta-gradient-dark.png");
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
     transition: 0.3s;
     position: relative;
+    border: 1px solid #343538;
+
 }
 
 .services .icon-box:hover {
-    background-color: #262a32;
+    background-image: url("../img/meta-gradient-dark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section-bg:before {
@@ -306,6 +317,12 @@ p {
     right: 0;
     transform: skewY(-3deg);
 }
+
+
+.services .icon-box p {
+    color: rgb(186, 186, 186);
+  }
+
 
 /*-------------------------------------------------------testimonails----------------------------------------*/
 #testimonials {
