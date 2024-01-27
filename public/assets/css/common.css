@@ -70,7 +70,6 @@ html {
     transition: all 0.5s;
     height: 80px;
     background: #fff;
-    /* box-shadow: 0px 0px 20px 0px rgba(233, 232, 232, 0.30); */
     border-bottom: 1px solid #e9e9e9;
 }
 
@@ -87,7 +86,7 @@ html {
 #header .logo h1 span {
     padding: 5px 10px;
     border-radius: 90px;
-    background-color: rgb(14 165 233);
+    background-color: rgb(8 126 164);
     color: #fff;
     box-shadow: 0 0 10px rgba(133, 131, 131, 0.3);
 }
@@ -321,9 +320,7 @@ html {
 footer {
     padding: 40px 100px;
     text-align: center;
-    /* background-color: rgb(241 245 249); */
     background-color: #fff;
-
     color: rgb(71 85 105);
 
 }
