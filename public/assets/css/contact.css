@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
 }
+
 section {
     padding: 60px 0;
 }
+
 .section-title {
     padding-bottom: 30px;
 }
@@ -42,7 +44,9 @@ section {
 /* contact us---------------------- */
 #contact {
     padding: 120px 10px 35px 10px;
-    background-color: #f8f9fb;
+    /* background-color: #f8f9fb; */
+
+    background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
     /* background-image: conic-gradient(from 90deg at -10% 100%,#bcc1cd 0deg,#bcc1cd 90deg,#fff 1turn); */
 }
 
@@ -81,7 +85,7 @@ section {
     padding: 0 0 0 60px;
     margin-bottom: 0;
     font-size: 17px;
-    color: #555555;
+    color: rgb(64 71 86);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -108,8 +112,8 @@ section {
     padding-bottom: 8px;
 }
 
-.contact iframe{
-    box-shadow: 100px -100px 0px -100px rgba(0,0,0,0.1),0px 10px 15px -100px rgba(0,0,0,0.1);
+.contact iframe {
+    box-shadow: 100px -100px 0px -100px rgba(0, 0, 0, 0.1), 0px 10px 15px -100px rgba(0, 0, 0, 0.1);
 }
 
 .contact .email-form .error-message {
@@ -220,7 +224,7 @@ section {
     font-size: 50px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 @media (max-width:768px) {
@@ -291,7 +295,7 @@ section {
 
 #social-links p {
     padding-top: 9px;
-    color: #797878;
+    color: rgb(64 71 86);
     font-size: 19px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
