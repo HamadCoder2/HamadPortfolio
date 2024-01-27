@@ -65,7 +65,7 @@ html {
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
 }
 
 @media (min-width: 1024px) {
@@ -94,7 +94,9 @@ html {
   padding: 70px 10px 10px 10px;
   height: 620px;
   text-align: center;
-  background-color: #f8f9fb;
+  /* background-color: #f8f9fb; */
+  background-color: #fff;
+
 }
 
 .banner .container .hero-img {
@@ -184,7 +186,7 @@ html {
 }
 
 .banner .container .links a:hover {
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
 }
 
 .banner .container .coffee {
@@ -212,7 +214,7 @@ html {
 
 .typing {
   font-weight: 700;
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
 }
@@ -294,7 +296,8 @@ html {
 /*------------------------------about section----------------------------*/
 #about {
   padding: 100px 10px 90px 10px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
 }
 
 .about .content {
@@ -304,7 +307,7 @@ html {
 .about .content h3 {
   font-weight: 600;
   font-size: 19px;
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
   padding-bottom: 15px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -313,14 +316,17 @@ html {
 .about .content h6 {
   font-weight: 700;
   font-size: 18px;
-  color: #302f2f;
+  /* color: #302f2f; */
+  color: rgb(35 39 47);
+
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
 
 .about .content p {
   margin-bottom: 0;
-  color: #adb5bd;
+  /* color: #adb5bd; */
+  color: rgb(64 71 86);
   /* font-family: "Poppins", sans-serif; */
   font-family: Mulish, sans-serif;
   line-height: 1.85;
@@ -470,6 +476,8 @@ html {
 
 #clients {
   padding: 50px 170px 30px 170px;
+  background-color: #fff;
+  /* background-image: conic-gradient(from 90deg at -10% 100%,#bcc1cd 0deg,#bcc1cd 90deg,#fff 1turn); */
 }
 
 .clients .swiper-pagination {
@@ -492,7 +500,7 @@ html {
 .clients .swiper-slide img {
   transition: 0.3s;
   width: 55px;
-  
+
 }
 
 .clients .swiper-slide img:hover {
@@ -515,16 +523,17 @@ html {
 }
 
 .section-title h2 {
-  font-size: 26px;
+  font-size: 25px;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   text-align: center;
   position: relative;
   /* font-family: "Poppins", sans-serif; */
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   /* font-family: Mulish,sans-serif; */
+  color: rgb(35 39 47);
 }
 
 .section-title h2:hover::after {
@@ -592,9 +601,13 @@ html {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background: #ffffff;
+  /* background: #ffffff; */
+  background-color: transparent;
   transition: 0.3s;
   position: relative;
+  box-shadow: inset 0 0 0 1px #d9dbe3;
+  border: 1px solid #d9dbe3;
+  box-shadow: inset 0 0 0 1px var(--tw-shadow-color);
 }
 
 .services .icon-box:hover {
@@ -604,20 +617,21 @@ html {
 
 .services .icon-box i {
   float: left;
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
   font-size: 50px;
   line-height: 0;
 }
 
 .services .icon-box h4 {
+  color: rgb(35 39 47);
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .services .icon-box h4 a {
-  color: #000000;
+  color: rgb(35 39 47);
   transition: 0.3s;
   text-decoration: none;
 }
@@ -627,15 +641,16 @@ html {
 }
 
 .services .icon-box .icon-box:hover h4 a {
-  color: rgb(14 165 233);
+  color: rgb(8 126 164);
 }
 
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
-  font-size: 18px;
+  font-size: 19px;
   /* font-family: "Poppins", sans-serif; */
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  color: rgb(64 71 86);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .section-bg {
@@ -645,7 +660,9 @@ html {
 
 .section-bg:before {
   content: "";
-  background: #EEF5FF;
+  /* background: #EEF5FF; */
+  background-image: conic-gradient(from -90deg at 110% 100%, #fff 0deg, #ebecf0 90deg, #ebecf0 1turn);
+  /* background-color: #fff; */
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -659,7 +676,9 @@ html {
   --------------------------------------------------------------*/
 #testimonials {
   padding: 80px 50px;
-  background-color: hsl(0, 0%, 100%);
+  /* background-color: hsl(0, 0%, 100%); */
+  background-image: conic-gradient(from 90deg at -10% 100%, #bcc1cd 0deg, #bcc1cd 90deg, #fff 1turn);
+
 }
 
 #testimonials .container .section-title {
@@ -722,11 +741,15 @@ html {
 
 .testimonials .testimonial-item p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   /* font-family: 'Poppins', sans-serif; */
-  font-family: Mulish, sans-serif;
+  /* font-family: Mulish, sans-serif; */
   /* font-family: 'Roboto Slab', serif; */
   /* font-family: 'Segoe UI', sans-serif; */
+  /* font-family: system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
+
+  font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: #fff;
