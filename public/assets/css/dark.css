@@ -110,7 +110,7 @@
 }
 
 .banner .container .hero-img {
-    border: 3px solid rgb(55 65 81);
+    border: 3px solid rgb(203, 203, 203);
     animation: morph 16s ease-in-out infinite;
 }
 
@@ -227,6 +227,8 @@
 /*------------------------------------------tech stack -----------------------------------*/
 #tech-stack {
     background-color: #262a32;
+    background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn);
+    /* background-image: none; */
 }
 
 .section-title h2 {
@@ -254,6 +256,12 @@
     color: #ffffff;
 }
 
+#clients {
+  background-image: none;
+  background-color: #262a32;
+    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
+}
+
 .clients .swiper-pagination .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -265,6 +273,8 @@
 /*--------------------------------------------------services--------------------------------------------*/
 #services {
     background-color: #262a32;
+    
+    /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
 }
 
 .services .icon-box h4 a,
@@ -302,6 +312,7 @@ p {
     /* background-image: conic-gradient(from -90deg at 110% 100%, #2b303b 0deg, #16181d 90deg, #16181d 1turn); */
     background-color: #262a32;
     /* background-image: conic-gradient(from 90deg at -10% 100%,#2b303b 0deg,#2b303b 90deg,#16181d 1turn); */
+    background-image: none;
 }
 
 .testimonials .testimonial-item p {
@@ -688,6 +699,7 @@ label span {
 /*----------------------------------------------contact section-----------------------------------------*/
 #contact {
     background-color: #262a32;
+    background-image: none;
 }
 
 .contact .info {
